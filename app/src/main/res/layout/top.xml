@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:layout_centerInParent="true"
+        android:src="@drawable/deafault_image"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_alignLeft="@id/imageView"
+        android:textColor="@color/dark"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:text="sky" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark"
+        android:layout_below="@id/textView2"
+        android:layout_alignLeft="@id/textView2"
+        android:textSize="14sp"
+        android:text="请编辑个人签名" />
+</RelativeLayout>
